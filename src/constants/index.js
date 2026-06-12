@@ -174,27 +174,28 @@ const experiences = [
   },
 ];
 
+const base = import.meta.env.BASE_URL;
 const educations = [
   {
     degree: "Sekolah Dasar",
     school: "SD Negeri Pacet",
     year: "2011 – 2017",
     location: "Ciruas",
-    image: "/assets/Tut_wuri_handayani.png",
+    image: `${base}assets/Tut_wuri_handayani.png`,
   },
   {
     degree: "Sekolah Menengah Pertama",
     school: "SMP Negeri 18 Kota Serang",
     year: "2017 – 2020",
     location: "Kota Serang",
-    image: "/assets/SMPN.png",
+    image: `${base}assets/SMPN.png`,
   },
   {
     degree: "Sekolah Menengah Atas",
     school: "SMA Negeri 8 Kota Serang",
     year: "2020 – 2023",
     location: "Kota Serang",
-    image: "/assets/SMAN.png",
+    image: `${base}assets/SMAN.png`,
   },
 ];
 
@@ -336,11 +337,15 @@ const projects = [
 ];
 
 const socialImgs = [
-  { name: "wa", imgPath: "/assets/wa.png", url: "https://wa.me/6283167120139" },
-  { name: "insta", imgPath: "/assets/insta.png" },
-  { name: "fb", imgPath: "/assets/fb.png" },
-  { name: "x", imgPath: "/assets/x.png" },
-  { name: "linkedin", imgPath: "/assets/linkedin.png" },
+  {
+    name: "wa",
+    imgPath: `${base}assets/wa.png`,
+    url: "https://wa.me/6283167120139",
+  },
+  { name: "insta", imgPath: `${base}assets/insta.png` },
+  { name: "fb", imgPath: `${base}assets/fb.png` },
+  { name: "x", imgPath: `${base}assets/x.png` },
+  { name: "linkedin", imgPath: `${base}assets/linkedin.png` },
 ];
 
 export {

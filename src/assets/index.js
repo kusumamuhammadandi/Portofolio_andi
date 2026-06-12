@@ -33,6 +33,14 @@ import Gpt from "./Gpt.jpeg";
 import book from "./book.png";
 import MyTsel from "./MyTsel.png";
 import Duolingo from "./Duolingo.png";
+import Tut_wuri from "./Tut_wuri_handayani.png";
+import SMPN from "./SMPN.png";
+import SMAN from "./SMAN.png";
+import wa from "./wa.png";
+import insta from "./insta.png";
+import fb from "./fb.png";
+import x from "./x.png";
+import linkedin from "./linkedin.png";
 
 export {
   logo,
@@ -66,5 +74,13 @@ export {
   book,
   MyTsel,
   Duolingo,
+  Tut_wuri,
+  SMPN,
+  SMAN,
+  wa,
+  insta,
+  fb,
+  x,
+  linkedin,
   profile,
 };

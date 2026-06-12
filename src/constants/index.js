@@ -180,22 +180,21 @@ const educations = [
     school: "SD Negeri Pacet",
     year: "2011 – 2017",
     location: "Ciruas",
-    image: "/src/assets/Tut_wuri_handayani.png",
+    image: "/assets/Tut_wuri_handayani.png",
   },
   {
     degree: "Sekolah Menengah Pertama",
     school: "SMP Negeri 18 Kota Serang",
-
     year: "2017 – 2020",
     location: "Kota Serang",
-    image: "/src/assets/SMPN.png",
+    image: "/assets/SMPN.png",
   },
   {
     degree: "Sekolah Menengah Atas",
     school: "SMA Negeri 8 Kota Serang",
     year: "2020 – 2023",
     location: "Kota Serang",
-    image: "/src/assets/SMAN.png",
+    image: "/assets/SMAN.png",
   },
 ];
 
@@ -337,27 +336,11 @@ const projects = [
 ];
 
 const socialImgs = [
-  {
-    name: "wa",
-    imgPath: "/src/assets/wa.png",
-    url: "https://wa.me/6283167120139",
-  },
-  {
-    name: "insta",
-    imgPath: "/src/assets/insta.png",
-  },
-  {
-    name: "fb",
-    imgPath: "/src/assets/fb.png",
-  },
-  {
-    name: "x",
-    imgPath: "/src/assets/x.png",
-  },
-  {
-    name: "linkedin",
-    imgPath: "/src/assets/linkedin.png",
-  },
+  { name: "wa", imgPath: "/assets/wa.png", url: "https://wa.me/6283167120139" },
+  { name: "insta", imgPath: "/assets/insta.png" },
+  { name: "fb", imgPath: "/assets/fb.png" },
+  { name: "x", imgPath: "/assets/x.png" },
+  { name: "linkedin", imgPath: "/assets/linkedin.png" },
 ];
 
 export {

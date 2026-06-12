@@ -25,14 +25,6 @@ import {
   book,
   MyTsel,
   Duolingo,
-  Tut_wuri,
-  SMPN,
-  SMAN,
-  wa,
-  insta,
-  fb,
-  x,
-  linkedin,
   threejs,
 } from "../assets";
 
@@ -188,21 +180,22 @@ const educations = [
     school: "SD Negeri Pacet",
     year: "2011 – 2017",
     location: "Ciruas",
-    image: Tut_wuri,
+    image: "/src/assets/Tut_wuri_handayani.png",
   },
   {
     degree: "Sekolah Menengah Pertama",
     school: "SMP Negeri 18 Kota Serang",
+
     year: "2017 – 2020",
     location: "Kota Serang",
-    image: SMPN,
+    image: "/src/assets/SMPN.png",
   },
   {
     degree: "Sekolah Menengah Atas",
     school: "SMA Negeri 8 Kota Serang",
     year: "2020 – 2023",
     location: "Kota Serang",
-    image: SMAN,
+    image: "/src/assets/SMAN.png",
   },
 ];
 
@@ -346,24 +339,24 @@ const projects = [
 const socialImgs = [
   {
     name: "wa",
-    imgPath: wa,
+    imgPath: "/src/assets/wa.png",
     url: "https://wa.me/6283167120139",
   },
   {
     name: "insta",
-    imgPath: insta,
+    imgPath: "/src/assets/insta.png",
   },
   {
     name: "fb",
-    imgPath: fb,
+    imgPath: "/src/assets/fb.png",
   },
   {
     name: "x",
-    imgPath: x,
+    imgPath: "/src/assets/x.png",
   },
   {
     name: "linkedin",
-    imgPath: linkedin,
+    imgPath: "/src/assets/linkedin.png",
   },
 ];
 

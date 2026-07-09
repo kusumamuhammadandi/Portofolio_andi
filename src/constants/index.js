@@ -269,7 +269,7 @@ const projects = [
       },
     ],
     image: Gpt,
-    source_code_link: "https://github.com/kusumamuhammadandi/ChatGPT.git",
+    source_code_link: "https://chatgpt-clone-six-cyan.vercel.app/",
   },
   {
     name: "AI-Powered Reading",

@@ -33,6 +33,7 @@ import Gpt from "./Gpt.png";
 import book from "./book.png";
 import MyTsel from "./MyTsel.png";
 import Duolingo from "./Duolingo.png";
+import deepseek from "./deepseek.png";
 
 export {
   logo,
@@ -66,5 +67,6 @@ export {
   book,
   MyTsel,
   Duolingo,
+  deepseek,
   profile,
 };

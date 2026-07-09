@@ -25,6 +25,7 @@ import {
   book,
   MyTsel,
   Duolingo,
+  deepseek,
   threejs,
 } from "../assets";
 
@@ -256,7 +257,7 @@ const projects = [
       "Aplikasi web chatbot interaktif yang menyerupai antarmuka ChatGPT, ditenagai oleh model bahasa mutakhir. Dibangun dengan tujuan menghadirkan pengalaman percakapan AI",
     tags: [
       {
-        name: "Javascript",
+        name: "TypeScript",
         color: "blue-text-gradient",
       },
       {
@@ -264,7 +265,7 @@ const projects = [
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Firebase",
         color: "pink-text-gradient",
       },
     ],
@@ -333,6 +334,27 @@ const projects = [
     ],
     image: Duolingo,
     source_code_link: "https://kusumamuhammadandi.github.io/duolingo_ai_video/",
+  },
+  {
+    name: "DeepSeek Clone",
+    description:
+      "DeepSeek Clone adalah aplikasi pencarian cerdas yang memungkinkan pengguna untuk mencari dan menemukan informasi yang relevan dengan cepat dan mudah digunakan",
+    tags: [
+      {
+        name: "Next.Js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "MongoDB",
+        color: "green-text-gradient",
+      },
+      {
+        name: "TypeScript",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: deepseek,
+    source_code_link: "https://deepseek-beta-fawn.vercel.app/",
   },
 ];
 

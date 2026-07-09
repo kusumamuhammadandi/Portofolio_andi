@@ -29,7 +29,7 @@ import react from "./company/react.png";
 
 import Andi_shop from "./Andi_shop.png";
 import Iphone from "./Iphone.png";
-import Gpt from "./Gpt.jpeg";
+import ChatGPT from "./Gpt.jpeg";
 import book from "./book.png";
 import MyTsel from "./MyTsel.png";
 import Duolingo from "./Duolingo.png";
@@ -62,7 +62,7 @@ export {
   react,
   Andi_shop,
   Iphone,
-  Gpt,
+  ChatGPT,
   book,
   MyTsel,
   Duolingo,

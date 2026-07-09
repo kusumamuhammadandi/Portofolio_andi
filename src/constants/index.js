@@ -21,7 +21,7 @@ import {
   backend_learning,
   Andi_shop,
   Iphone,
-  ChatGpt,
+  Gpt,
   book,
   MyTsel,
   Duolingo,
@@ -268,7 +268,7 @@ const projects = [
         color: "pink-text-gradient",
       },
     ],
-    image: ChatGpt,
+    image: Gpt,
     source_code_link: "https://chatgpt-clone-six-cyan.vercel.app/",
   },
   {
